@@ -6,10 +6,10 @@
 
 :root {
   /* Neash Africa Brand Colors - Earth & Warmth */
-  --neash-base: #E2725B;   /* Terracotta */
-  --neash-dark: #4A2511;   /* Deep Mahogany */
-  --neash-accent: #F9A03F; /* Golden Hour */
-  --neash-light: #FDF8F5;  /* Warm Sand */
+  --neash-base: #E8D3C9;   /* Terracotta */
+  --neash-dark: #f4cfa7;   /* Deep Mahogany */
+  --neash-accent: #584b20; /* Golden Hour */
+  --neash-light: #272222;  /* Warm Sand */
 
   /* Default Theme Mapping (Light Mode by default for this brand) */
 
