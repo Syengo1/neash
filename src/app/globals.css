@@ -129,6 +129,17 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Add these for the marquee */
+  --animate-marquee: marquee 40s linear infinite;
+  --animate-marquee-slow: marquee 60s linear infinite;
+}
+
+/* Add this at the very bottom of the file */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); } /* -50% because we will double the content array to make it seamless */
+
 }
 
 @media (prefers-color-scheme: dark) {
